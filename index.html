@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idade</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <h1 id="title">Verificador de memes!</h1>
+    </header>
+    <section>
+        <div>
+            <label>Ano de Nascimento: </label>
+            <input type="number" name="nasc" id="nasc">
+            <!-- Para que só uma opçao seja marcável devemos usar o mesmo name -->
+            <p>Sexo: 
+            <input type="radio" name="sexo" id="masc" checked><label for="masc"> Masculino </label>
+            <input type="radio" name="sexo" id="fem"><label for="fem"> Feminino</label>
+            </p>
+            
+            <input type="button" value="Verificar" onclick="verificar()">
+        </div>
+        <div id="res">
+            <p>Preencha os dados acima para ver o resultado! </p>
+        </div>
+    </section>
+    <footer>
+            <h3>&copy; Feito por Caio Gonçalves</h3>
+    </footer>
+   
+    
+    <script src=script.js></script>
+</body>
+</html>
